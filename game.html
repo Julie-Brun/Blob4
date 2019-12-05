@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Puissance 4</title>
+    <link rel="stylesheet" href="css/puissance4.css" />
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+    <section id="buttons">
+        <img id="title" src="img/Blob4.png" alt="Titre Blob 4">
+        <p>Au joueur &#160;<span id="player"></span>&#160; !</p> 
+        <p id="restart"></p>
+
+        <button class="button" id="rules" type="button">Règles</button>
+        <button class="button" id="reset" type="button">Recommencer</button>
+        <button class="button" id="menu" type="button">Menu</button>
+
+    </section>
+
+    <section id="game">
+        <table id="puissance4" cellspacing="0">
+            <tr data-id="0">
+                <td data-row="0" data-col="0"><img src='img/CoinHautG.png'></td>
+                <td data-row="0" data-col="1"><img src='img/BordH.png'></td>
+                <td data-row="0" data-col="2"><img src='img/BordH.png'></td>
+                <td data-row="0" data-col="3"><img src='img/BordH.png'></td>
+                <td data-row="0" data-col="4"><img src='img/BordH.png'></td>
+                <td data-row="0" data-col="5"><img src='img/BordH.png'></td>
+                <td data-row="0" data-col="6"><img src='img/CoinHautD.png'></td>
+            </tr>
+            <tr data-id="1">
+                <td data-row="1" data-col="0"><img src='img/BordG.png'></td>
+                <td data-row="1" data-col="1"><img src='img/Milieu.png'></td>
+                <td data-row="1" data-col="2"><img src='img/Milieu.png'></td>
+                <td data-row="1" data-col="3"><img src='img/Milieu.png'></td>
+                <td data-row="1" data-col="4"><img src='img/Milieu.png'></td>
+                <td data-row="1" data-col="5"><img src='img/Milieu.png'></td>
+                <td data-row="1" data-col="6"><img src='img/BordD.png'></td>
+            </tr>
+            <tr data-id="2">
+                <td data-row="2" data-col="0"><img src='img/BordG.png'></td>
+                <td data-row="2" data-col="1"><img src='img/Milieu.png'></td>
+                <td data-row="2" data-col="2"><img src='img/Milieu.png'></td>
+                <td data-row="2" data-col="3"><img src='img/Milieu.png'></td>
+                <td data-row="2" data-col="4"><img src='img/Milieu.png'></td>
+                <td data-row="2" data-col="5"><img src='img/Milieu.png'></td>
+                <td data-row="2" data-col="6"><img src='img/BordD.png'></td>
+            </tr>
+            <tr data-id="3">
+                <td data-row="3" data-col="0"><img src='img/BordG.png'></td>
+                <td data-row="3" data-col="1"><img src='img/Milieu.png'></td>
+                <td data-row="3" data-col="2"><img src='img/Milieu.png'></td>
+                <td data-row="3" data-col="3"><img src='img/Milieu.png'></td>
+                <td data-row="3" data-col="4"><img src='img/Milieu.png'></td>
+                <td data-row="3" data-col="5"><img src='img/Milieu.png'></td>
+                <td data-row="3" data-col="6"><img src='img/BordD.png'></td>
+            </tr>
+            <tr data-id="4">
+                <td data-row="4" data-col="0"><img src='img/BordG.png'></td>
+                <td data-row="4" data-col="1"><img src='img/Milieu.png'></td>
+                <td data-row="4" data-col="2"><img src='img/Milieu.png'></td>
+                <td data-row="4" data-col="3"><img src='img/Milieu.png'></td>
+                <td data-row="4" data-col="4"><img src='img/Milieu.png'></td>
+                <td data-row="4" data-col="5"><img src='img/Milieu.png'></td>
+                <td data-row="4" data-col="6"><img src='img/BordD.png'></td>
+            </tr>
+            <tr data-id="5">
+                <td data-row="5" data-col="0"><img src='img/CoinBasG.png'></td>
+                <td data-row="5" data-col="1"><img src='img/BordB.png'></td>
+                <td data-row="5" data-col="2"><img src='img/BordB.png'></td>
+                <td data-row="5" data-col="3"><img src='img/BordB.png'></td>
+                <td data-row="5" data-col="4"><img src='img/BordB.png'></td>
+                <td data-row="5" data-col="5"><img src='img/BordB.png'></td>
+                <td data-row="5" data-col="6"><img src='img/CoinBasD.png'></td>
+            </tr>
+        </table>
+
+        <img id="blobVert" src="img/BlobVert.gif" alt="Blob Vert qui sourit et tire la langue">
+        <img id="blobViolet" src="img/BlobViolet.gif" alt="Blob Violet mignon">
+
+    </section>
+
+    <div class="splashScreen"></div>
+</body>
+</html>
